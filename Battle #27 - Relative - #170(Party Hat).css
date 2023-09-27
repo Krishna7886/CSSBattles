@@ -1,0 +1,17 @@
+<p a><p b><p c><style>*{
+  background:#73C6EA;
+}[a],[b],[c]{
+  position:fixed;
+  background:transparent;
+  width:0;
+  border-bottom:180px solid #0D1335;
+  border-right:125px solid transparent;
+  border-left:125px solid transparent;
+  margin:52+67;
+}[b]{
+  border-bottom:140px solid #DC6638;
+  margin:92+67;
+}[c]{
+  border-bottom:100px solid #FBFAE2;
+  margin:132+67;
+}
