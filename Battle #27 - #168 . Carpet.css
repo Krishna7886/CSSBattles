@@ -30,3 +30,49 @@
 }[h]{
   margin:132-138;
 }
+/*Or you can use this code*/
+/*
+
+<p a><p b><p c><p d><p e><p f><p g><p h><p i><p j><p k><p l><p m><p n><p o><p p><style>*{
+  background:#DC6638;
+}[a],[b],[c],[d],[e],[f],[g],[h],[i],[j],[k],[l],[m],[n],[o],[p]{
+  background:transparent;
+  height:300;
+  width:300;
+  border:20px solid #0D1335;
+  position:fixed;
+}[a]{
+  margin:-308-258;
+}[b]{
+  margin:-268-218;
+}[c]{
+  margin:-228-178;
+}[d]{
+  margin:-188-138;
+}[e]{
+  margin:252-258;
+}[f]{
+  margin:212-218;
+}[g]{
+  margin:172-178;
+}[h]{
+  margin:132-138;
+}[i]{
+  margin:-308+302;
+}[j]{
+  margin:-268+262;
+}[k]{
+  margin:-228+222;
+}[l]{
+  margin:-188+182;
+}[m]{
+  margin:252+302;
+}[n]{
+  margin:212+262;
+}[o]{
+  margin:172+222;
+}[p]{
+  margin:132-138;
+}
+
+*/
