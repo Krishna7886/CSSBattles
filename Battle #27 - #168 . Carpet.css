@@ -1,0 +1,32 @@
+<p a><p b><p c><p d><p e><p f><p g><p h><style>*{
+  background:#DC6638;
+}[a],[b],[c],[d],[e],[f],[g],[h]{
+  background:transparent;
+  height:300;
+  width:300;
+  border:20px solid #0D1335;
+  position:fixed;
+}[a]{
+  margin:-308-258;
+  -webkit-box-reflect:right 220px;
+}[b]{
+  margin:-268-218;
+  -webkit-box-reflect:right 140px;
+}[c]{
+  margin:-228-178;
+  -webkit-box-reflect:right 60px;
+}[d]{
+  margin:-188-138;
+  -webkit-box-reflect:right -20px;
+}[e]{
+  margin:252-258;
+  -webkit-box-reflect:right 220px;
+}[f]{
+  margin:212-218;
+  -webkit-box-reflect:right 140px;
+}[g]{
+  margin:172-178;
+  -webkit-box-reflect:right 60px;
+}[h]{
+  margin:132-138;
+}
