@@ -1,0 +1,27 @@
+<p a><p b><p c><p d><style>*{
+  background:#0D1335;
+}[a],[b],[d],[c]{
+  position:fixed;
+  background:transparent;
+  border:10px solid #DC6638;
+  height:90;
+  width:230;
+  rotate:60deg;
+  border-radius:100%;
+  margin:87+67;
+}[a]{
+  border:10px solid #FBFAE2;
+  rotate:0deg;
+  margin:87+67
+}[b]{
+  border:10px solid #4FA07B;
+  margin:87+67;
+  rotate:-60deg
+}[d]{
+  background:#73C6EA;
+  height:40;
+  width:40;
+  border-radius:50%;
+  margin:122+172;
+  border:0;
+}
