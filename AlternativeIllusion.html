@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .fst,.snd,.trd,.frth,.fst1,.snd1,.trd1,.frth1,.fstr,.sndr,.trdr,.frthr,.fst1r,.snd1r,.trd1r,.frth1r{
+            background: conic-gradient(red 0deg,red 90deg,yellow 90deg,yellow 180deg,red 180deg,red 270deg,yellow 270deg,yellow 360deg);
+            height:100px;
+            width:100px;
+            margin:100px 100px;
+            border-radius: 50%;
+            position: fixed;
+            animation: erth1 1s  infinite ;
+        }
+        .fstr{
+            margin:300px 100px;
+        }
+        .fst1{
+            margin:100px 300px;
+        }
+        .fst1r{
+            margin:300px 300px;
+        }
+        .snd{
+            margin:100px 200px;
+            animation: erth2 1s  infinite ;
+        }
+        .sndr{
+            margin:300px 200px;
+            animation: erth2 1s  infinite ;
+        }
+        .trd{
+            margin:200px 100px;
+            animation: erth3 1s  infinite ;
+        }
+        .trdr{
+            margin:400px 100px;
+            animation: erth3 1s  infinite ;
+        }
+        .frth{
+            margin:200px 200px;
+            animation: erth4 1s  infinite ;
+        }
+        .frthr{
+            margin:400px 200px;
+            animation: erth4 1s  infinite ;
+        }
+        .snd1{
+            margin:100px 400px;
+            animation: erth2 1s  infinite ;
+        }
+        .snd1r{
+            margin:300px 400px;
+            animation: erth2 1s  infinite ;
+        }
+        .trd1{
+            margin:200px 300px;
+            animation: erth3 1s  infinite ;
+        }
+        .trd1r{
+            margin:400px 300px;
+            animation: erth3 1s  infinite ;
+        }
+        .frth1{
+            margin:200px 400px;
+            animation: erth4 1s  infinite ;
+        }
+        .frth1r{
+            margin:400px 400px;
+            animation: erth4 1s  infinite ;
+        }
+        @keyframes erth1 {
+            0%,100%,25%,65%{
+                
+                rotate: 90deg;
+            }
+            50%,40%{
+                
+                rotate: 0deg;
+            }
+        }
+        @keyframes erth2 {
+            0%,100%,25%,65%{
+                
+                rotate: 180deg;
+            }
+            50%,40%,55%{
+                
+                rotate: 270deg;
+            }
+        }
+        @keyframes erth3 {
+            0%,100%,25%,65%{
+                
+                rotate: 0deg;
+            }
+            50%,40%,55%{
+                
+                rotate: 90deg;
+            }
+        }
+        @keyframes erth4 {
+            0%,100%,25%,65%{
+                
+                rotate: -90deg;
+            }
+            50%,40%,55%{
+                
+                rotate: -180deg;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="whole">
+        <div class="fst"></div>
+        <div class="snd"></div>
+        <div class="trd"></div>
+        <div class="frth"></div>
+        <div class="fst1"></div>
+        <div class="snd1"></div>
+        <div class="trd1"></div>
+        <div class="frth1"></div>
+        <div class="fstr"></div>
+        <div class="sndr"></div>
+        <div class="trdr"></div>
+        <div class="frthr"></div>
+        <div class="fst1r"></div>
+        <div class="snd1r"></div>
+        <div class="trd1r"></div>
+        <div class="frth1r"></div>
+    </div>
+</body>
+</html>
